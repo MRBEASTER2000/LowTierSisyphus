@@ -1,6 +1,6 @@
-﻿using UMM;
 using UnityEngine;
 using HarmonyLib;
+using BepInEx;
 using System.IO;
 using System;
 using System.Reflection;
@@ -8,14 +8,14 @@ using System.Collections.Generic;
 
 namespace LowTierSisy
 {
-    [UKPlugin("ltg.Sisyphus", "Low Tier Sisyphus Speech", "1.0.0", "Replaces Sisyphus Prime's intro with a low tier one.\nOriginal audio: https://www.youtube.com/watch?v=DOskY5a3ZCM", true, false)]
-    public class LowTierSis : UKMod
+    [BepInPlugin("ImNotSimon.LowTierSisyphus", "LowTierSisyphus", "1.1.0")]
+    public class Plugin : BaseUnityPlugin
     {
         private static Harmony harmony;
 
         internal static AssetBundle LowTierSisyBundle;
 
-        public override void OnModLoaded()
+        private void Awake()
         {
             Debug.Log("BEGONE! (low tier sisyphus starting)");
 
@@ -36,11 +36,6 @@ namespace LowTierSisy
             return Assembly.GetExecutingAssembly().Location.Substring(0, Assembly.GetExecutingAssembly().Location.LastIndexOf(Path.DirectorySeparatorChar));
         }
 
-        public override void OnModUnload()
-        {
-            harmony.UnpatchSelf();
-            base.OnModUnload();
-        }
 
         private static SubtitledAudioSource.SubtitleDataLine MakeLine(string subtitle, float time)
         {
