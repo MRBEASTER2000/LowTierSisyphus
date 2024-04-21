@@ -81,7 +81,7 @@ namespace LowTierSisy
                             subtitles.Add(MakeLine("SUCKING on my dick daily.", 24.34f));
                             subtitles.Add(MakeLine("Your purpose in life is to be in that chat", 26.605f));
                             subtitles.Add(MakeLine("BLOWING the dick daily.", 29f));
-                            subtitles.Add(MakeLine("Your life is nothing, you serve ZERO purpose!", 32f));
+                            subtitles.Add(MakeLine("Your life is nothing, you serve ZERO purpose!", 31f));
                             subtitles.Add(MakeLine("Come forth, Child of Man", 34.69f));
                             subtitles.Add(MakeLine("and kill yourself", 36.73f));
                             subtitles.Add(MakeLine("NOW!", 38.036f));
