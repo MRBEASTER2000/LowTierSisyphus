@@ -65,7 +65,7 @@ namespace LowTierSisy
                             replaced = true;
 
                             subtitles.Add(MakeLine("You are a worthless", 0f));
-                            subtitles.Add(MakeLine("BITCH ASS machine.", 1.1f));
+                            subtitles.Add(MakeLine("FELLAH machine.", 1.1f));
                             subtitles.Add(MakeLine("Your life LITERALLY is as valuable as a summer's ant.", 2.26f));
                             subtitles.Add(MakeLine("I'm just gonna stomp you,", 5.86f));
                             subtitles.Add(MakeLine("and you're gonna keep coming back.", 7.36f));
@@ -74,16 +74,16 @@ namespace LowTierSisy
                             subtitles.Add(MakeLine("Why?", 13.28f));
                             subtitles.Add(MakeLine("'Cause YOU smellin' the BLOOD,", 13.87f));
                             subtitles.Add(MakeLine("you worthless", 15.5f));
-                            subtitles.Add(MakeLine("BITCH ASS machine.", 16.5f));
-                            subtitles.Add(MakeLine("You're gonna stay on my dick until you DIE.", 17.78f));
+                            subtitles.Add(MakeLine("FELLAH MOKRANE machine.", 16.5f));
+                            subtitles.Add(MakeLine("You're gonna stay on my banana until you DIE.", 17.78f));
                             subtitles.Add(MakeLine("You serve no purpose in life.", 20.54f));
                             subtitles.Add(MakeLine("Your purpose in life is to be on my stream", 22.021f));
-                            subtitles.Add(MakeLine("SUCKING on my dick daily.", 24.34f));
+                            subtitles.Add(MakeLine("SUCKING on my eggs daily.", 24.34f));
                             subtitles.Add(MakeLine("Your purpose in life is to be in that chat", 26.605f));
-                            subtitles.Add(MakeLine("BLOWING the dick daily.", 29f));
+                            subtitles.Add(MakeLine("BLOWING the bomb daily.", 29f));
                             subtitles.Add(MakeLine("Your life is nothing, you serve ZERO purpose!", 31f));
-                            subtitles.Add(MakeLine("Come forth, Child of Man", 34.69f));
-                            subtitles.Add(MakeLine("and kill yourself", 36.73f));
+                            subtitles.Add(MakeLine("Come forth, Child of SEX", 34.69f));
+                            subtitles.Add(MakeLine("and beat me", 36.73f));
                             subtitles.Add(MakeLine("NOW!", 38.036f));
                         }
                         //update subtitles if needed
